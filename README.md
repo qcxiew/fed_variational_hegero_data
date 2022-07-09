@@ -2,4 +2,5 @@
 Federated Variational Learning for Heterogeneous Data
 
 Heterogeneous data trained on various clients is a critical factor affecting the converging processes of federated learning. Series of novel federated learning algorithms, e.g. FedNova, SCAFFOLD, have been designed to conquer this issue. However, these algorithms sacrifice large communication resources and consumes too much local model computing power. In this work we propose a federated variational generative learning (FedVGD) to learn the data distribution under local heterogeneity and improve global target model convergence speed and generalization. For training a target model, the FedVGD map local data to a variational latent space for the posterior and share a generator with server to reconstruct synthetic data from the latent variable which assisting global target model training.  Compared to vanilla federated learning, our methods reduce the model shift and only need a few communicate cost to achieve the same degree of convergence under heterogeneous scenarios. Experiments show that on extremely imbalance non-i.i.d data partitions, the target global model achieve higher accuracy rate with our methods which outperforms other federated learning approaches.
-co.xiew
+
+co.xiew.
